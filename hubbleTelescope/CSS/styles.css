@@ -1,0 +1,80 @@
+/* CSS Document */
+
+/* CSS Reset */
+
+body, h1, h2, blockquote, table {
+	 margin:0;
+      padding:0;
+      border:0;
+}
+
+
+body {
+      background-color:#000;
+}
+
+
+img, video {
+      max-width: 100%;
+      display: block;
+}
+
+
+header {
+      top: 0;
+      background-color: #000;
+      height: 190px;
+}
+
+
+nav {
+	color: #fff;
+	font-family: 'Francois One', sans-serif;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: none;
+	padding: 3%;
+	display: block;
+	float: right;
+     width: 70%;
+     margin: 4em 1em 0 0;
+}
+      
+      nav ul {
+            text-align: right;
+	}
+      
+      nav li {
+            border: none;
+	}
+      
+      nav li a {
+            padding: 0.5em 1em;
+	}
+
+
+header h1 {
+	text-align: center;
+	margin-left: 10%;
+	font-weight: bold;
+	font-size: 4em;
+}
+
+
+main {
+      clear: both;
+      background-color: #7D7D7D;
+      padding: 2%;
+      font-size: 1.25em;
+      font-family: 'roboto slab', serif;
+}
+
+
+footer .copyright {
+      font-size: 0.75em;
+      text-align: center;
+      color: #fff;
+      padding: 2% 4%;
+	 float: left;
+	 width: 75%
+}
